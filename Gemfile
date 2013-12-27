@@ -10,8 +10,8 @@ gem 'sqlite3', :group => [:development, :test]
 # Heroku specials…
 group :production do
   gem 'thin'
-  gem 'pg'
-  gem 'rails_12factor'
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
 # Use SCSS for stylesheets
